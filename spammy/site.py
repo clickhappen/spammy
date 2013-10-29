@@ -31,7 +31,7 @@ def score(request):
     global SPAMS
     SPAMS += 1
     sid = request.getSession().uid
-    return str(0.0)
+    return str(0.1)
 
 
 @route('/static/')
