@@ -1,6 +1,8 @@
 Spammy
 ======
 
+[![Build Status](https://travis-ci.org/clickhappen/spammy.png?branch=master)](https://travis-ci.org/clickhappen/spammy) [![Coverage Status](https://coveralls.io/repos/clickhappen/spammy/badge.png?branch=master)](https://coveralls.io/r/clickhappen/spammy?branch=master)
+
 Overview
 --------
 This app is designed to detect spam / unwanted posts in web forms.  This
