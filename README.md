@@ -67,7 +67,7 @@ represents an error condition.
     >>> import spammyc
     >>> import json
     >>> data = {
-    ...    'url': 'http://www.ips.co.za/schedule-viewing/',
+    ...    'url': 'http://www.domain.com/schedule-viewing/',
     ...    'remote_ip': 192.168.1.2,
     ...    'name': 'John Smith',
     ...    'email': 'john@smith.me',
@@ -84,4 +84,4 @@ Plain HTTP
 You can also interact with Spammy over plain text HTTP, an example using curl
 is included below:
 
-    $ curl -X "{'url':'http://www.ips.co.za/schedule-viewing/','remote_ip':192.168.1.2,'name':'John Smith','email':'john@smith.me','contact_number':'wkjebgkwjebg','message':'Foo'}" http://spammy.propdata.net/score
+    $ curl -X "{'url':'http://www.domain.com/schedule-viewing/','remote_ip':192.168.1.2,'name':'John Smith','email':'john@smith.me','contact_number':'wkjebgkwjebg','message':'Foo'}" http://spammy.clickhappen.com/score
