@@ -17,21 +17,22 @@ Rules
 
 The following rules and scores are installed by default:
 
-```````````````````````````````````````````````````````````````````````````````
-` Rule                                                                  Score `
-```````````````````````````````````````````````````````````````````````````````
-` Contact number contains something other than /[0-9] - ( )/            + 1.0 `
-` Message portion contains hyperlinks                                   + 1.0 `
-` Field contains an empty string (score is per empty field)             + 0.2 `
-` No contact details exist at all                                       + 1.0 `
-` Message contains a hyperlink that is on the URLBL                     + 1.5 `
-` Remote IP is on a realtime blacklist                                  + 0.5 `
-` No rDNS (PTR) record for remote IP                                    + 0.5 `
-` No valid MX record for domain in e-mail address                       + 1.5 `
-` Message contains phrases commonly used in spam                        + 1.0 `
-` Sender e-mail address matches domain in URL                           - 2.0 `
-` Naïve Bayesian text classifier                                -1.0 to + 1.0 `
-```````````````````````````````````````````````````````````````````````````````
+    ```````````````````````````````````````````````````````````````````````````
+    ` Rule                                                              Score `
+    ```````````````````````````````````````````````````````````````````````````
+    ` Contact number contains something other than /[0-9] - ( )/        + 1.0 `
+    ` Message portion contains hyperlinks                               + 1.0 `
+    ` Field contains an empty string (score is per empty field)         + 0.2 `
+    ` No contact details exist at all                                   + 1.0 `
+    ` Message contains a hyperlink that is on the URLBL                 + 1.5 `
+    ` Remote IP is on a realtime blacklist                              + 0.5 `
+    ` No rDNS (PTR) record for remote IP                                + 0.5 `
+    ` No valid MX record for domain in e-mail address                   + 1.5 `
+    ` Message contains phrases commonly used in spam                    + 1.0 `
+    ` Sender e-mail address matches domain in URL                       - 2.0 `
+    ` Naïve Bayesian text classifier                            -1.0 to + 1.0 `
+    ```````````````````````````````````````````````````````````````````````````
+
 
 Once a submission is sent to Spammy it will respond with the total score, made
 up of each triggered rule above.  The user can then decide to discard,
